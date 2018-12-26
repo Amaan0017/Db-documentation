@@ -1,0 +1,31 @@
+                                       ********** Instructions How To Run Project**********
+
+1- Install Xampp Server
+-> Open Xampp Controller
+-> start Appache
+-> start Mysql
+
+2- Install Composer (for laravel Dependencies)
+
+3- Install Any Text Editor
+
+4- Make Virtual Hosting for this project (Its important to run project)
+  ->open "xampp" folder->open "appache" folder->open "conf" folder->open "extra" folder
+   there is a file name with "httpd-vhosts" open that file and go at the end of file & paste
+   this code 
+         <VirtualHost *:80>
+         DocumentRoot "E:/xampp/htdocs/project/public"
+         ServerName hyper-mart.me
+         </VirtualHost>
+   -> Go to windows folder->open System32 Folder-> open Drivers Folder->open etc folder
+     there is a file name "host" open that file and paste that code at the end of this file
+      127.0.0.1       hyper-mart.me
+
+5- Copy Project Folder & paste in htdocs folder located in xampp folder
+6- Go to localhost/phpmyadmin create database with sample name then u see there is
+a import button just click it & include sample.sql file from Database Folder your database
+is ready
+7- After completing all above points then run project in your's any favourite browser (Recommended: Google Chrome or Mozilla Firefox)
+    just use this url : hyper-mart.me
+
+                                   ******************** Enjoy Project ****************************
